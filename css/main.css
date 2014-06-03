@@ -1,0 +1,36 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	background-color: #000000;
+}
+
+.bstreet-color {
+	background-color: #2d2e2e;
+	background: url(../img/header.jpg); repeat-x;
+}
+
+.bstreet-show {
+	height: 200px;
+}
+
+.bstreet-text a {
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
