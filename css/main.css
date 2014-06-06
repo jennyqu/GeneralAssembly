@@ -3,25 +3,42 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-	background-color: #000000;
+
+#bstreet-statement {
+	width: 100%;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #000;
+	color: #fff;
 }
 
-.bstreet-color {
-	background-color: #2d2e2e;
-	background: url(../img/header.jpg); repeat-x;
+#bstreet-statement-header {
+	text-align: center;
+	font-size: 25px;
+	padding-top: 15px;
 }
 
-.bstreet-show {
-	height: 200px;
+#mission-statement {
+	font-size: 18px;
+	text-align: center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.bstreet-text a {
-	color: #ffffff;
+#bstreet-social {
+	width: 100%;
+	height: 50px;
+	background-color: #ffff00;
 }
 
+.bstreet-logo {
+	position: relative;
+	top: 5px;
+}
 
-
+.bstreet
 
 
 

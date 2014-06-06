@@ -3,112 +3,145 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>B Street Boxing - Home</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>B Street Boxing - Home</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<style>
-body {
-	padding-top: 50px;
-	padding-bottom: 20px;
-}
-</style>
-<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/main.css">
-
-<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<style>
+	body {
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	</style>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 </head>
 <body>
-<div class="container">
-	<div class="navbar bstreet-color navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#" style="color: black; font-weight: bold;">B Street Boxing</a>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav pull-right bstreet-text">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Location</a></li>
-				<li><a href="#">Schedule</a></li>
-				<li><a href="#">Pro Fighters</a></li>
-				<li><a href="#">Amateur Boxing Events</a></li>
-			</ul>
-		</div><!--/.navbar-collapse -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span class="bstreet-logo">
+					<img src="img/bstreetbrandlogo.png">	
+				</span>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right bstreet-text">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Schedule</a></li>
+					<li><a href="#">Pro Fighters</a></li>
+					<li><a href="#">Amateur Boxing Events</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
+	<div id="bstreet-carousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#bstreet-carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#bstreet-carousel" data-slide-to="1"></li>
+		</ol>
 
-	<!-- Main jumbotron for a primary marketing message or call to action -->
-	<div class="jumbotron">
-		<div class="row">
-			<div class="col-md-4">
-				<img src="img/bstreetlogo_main.png">
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+		    	<img src="img/carousel/carousel1.jpg" alt="blah1" class="img-responsive">
+		      	<div class="carousel-caption">
+		        	<h3>Open Monday Thru Saturday, please check out our <a href="#">schedule</a> for more details!</h3>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<p>
-				The goal and objective of Eddie Croft’s
-				B Street Boxing is two-fold: to teach children,
-				teens, and adults the technique and skills of
-				boxing and mixed-martial arts, while infusing
-				them with the discipline and dedication
-				required to achieve a high level of success
-				in these types of fitness and competition.
-				</p>
-				<p><a class="btn btn-warning btn-lg pull-right" role="button">Free Trail Week</a></p>
+		    <div class="item">
+		    	<img src="img/carousel/carousel2.jpg" alt="blah2" class="img-responsive">
 			</div>
+		</div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#bstreet-carousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#bstreet-carousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+	</div>
+	<div id="bstreet-social">
+		<div class="container">
+			<a href="#">
+				<img src="img/social/twitter.gif" height="50px" width="50px" class="pull-right">
+			</a>
+			<a href="#">
+				<img src="img/social/instagram.png" height="50px" width="50px" class="pull-right">
+			</a>
+			<a href="#">
+				<img src="img/social/facebook.gif" height="50px" width="50px" class="pull-right">
+			</a>
+		</div>
+	</div>
+	<div id="bstreet-statement">
+		<div class="container">
+			<p id="bstreet-statement-header">
+				The goal and objective of Eddie Croft's <br>B Street Boxing is two-fold
+			</p>
+			<p id="mission-statement">
+				To teach children, teens, and adults the technique and skills of boxing and mixed-martial arts, while
+				infusing them with the discipline and dedication required to achieve a high level of success in these
+				types of fitness and competition.
+			</p>
 		</div>
 	</div>
 	<div class="row">
-			<div class="col-md-6">
-				<h2>Flickr Stream</h2>
-				<div class="bstreet-show">
-					<a href="http://www.flickr.com/photos/bstreetboxing/4275363175/"><img src="http://farm3.staticflickr.com/2701/4275363175_567425a23e_s.jpg" alt="A photo on Flickr" title="Untitled-8" height="75" width="75"></a>
-					<a href="http://www.flickr.com/photos/bstreetboxing/4276109320/"><img src="http://farm5.staticflickr.com/4070/4276109320_f0e9948112_s.jpg" alt="A photo on Flickr" title="Untitled-4" height="75" width="75"></a>
-					<a href="http://www.flickr.com/photos/bstreetboxing/4276107666/"><img src="http://farm3.staticflickr.com/2778/4276107666_c30d048994_s.jpg" alt="A photo on Flickr" title="Untitled-1" height="75" width="75"></a>
-					<a href="http://www.flickr.com/photos/bstreetboxing/4276109174/"><img src="http://farm5.staticflickr.com/4053/4276109174_65a47c24cb_s.jpg" alt="A photo on Flickr" title="Untitled-3" height="75" width="75"></a>
-					<a href="http://www.flickr.com/photos/bstreetboxing/4276109578/"><img src="http://farm3.staticflickr.com/2662/4276109578_cd4b2ca5f0_s.jpg" alt="A photo on Flickr" title="Untitled-10" height="75" width="75"></a>
-					<a href="http://www.flickr.com/photos/bstreetboxing/4275363315/"><img src="http://farm5.staticflickr.com/4062/4275363315_3fbba93845_s.jpg" alt="A photo on Flickr" title="Untitled-11" height="75" width="75"></a>
-				</div>			
-				<p>
-					<a class="btn pull-right btn-warning" href="#" role="button">View more images</a>
-				</p>
-			</div>
 		<div class="col-md-6">
-				<h2>YouTube</h2>
-				<div class="bstreet-show">
-					<object width="525px" height="500px" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
-						<param name="allowFullScreen" value="true">
-						<param name="allowscriptaccess" value="always">
-						<param name="src" value="http://www.youtube.com/v/c9wArmLDdT0&amp;hl=en_US&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999">
-						<param name="allowfullscreen" value="true">
-						<embed class="youtube_dimensions" type="application/x-shockwave-flash" src="http://www.youtube.com/v/c9wArmLDdT0&amp;hl=en_US&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999" allowscriptaccess="always" allowfullscreen="true"> 
-					</object>
-				</div>
-				<p><a class="btn btn-warning pull-right" href="#" role="button">View more videos</a></p>
-		</div>
-	</div>
-	<br><br>
-	<footer class="navbar navbar-inverse navbar-fixed-bottom">
-		<div class="container">
-			<p class="navbar-text">
-			<strong>B Street Boxing</strong> 223 South B Street San Mateo, CA 94001 <strong>(650) 342-7408</strong>
+			<h2>Flickr Stream</h2>
+			<div class="bstreet-show">
+				<a href="http://www.flickr.com/photos/bstreetboxing/4275363175/"><img src="http://farm3.staticflickr.com/2701/4275363175_567425a23e_s.jpg" alt="A photo on Flickr" title="Untitled-8" height="75" width="75"></a>
+				<a href="http://www.flickr.com/photos/bstreetboxing/4276109320/"><img src="http://farm5.staticflickr.com/4070/4276109320_f0e9948112_s.jpg" alt="A photo on Flickr" title="Untitled-4" height="75" width="75"></a>
+				<a href="http://www.flickr.com/photos/bstreetboxing/4276107666/"><img src="http://farm3.staticflickr.com/2778/4276107666_c30d048994_s.jpg" alt="A photo on Flickr" title="Untitled-1" height="75" width="75"></a>
+				<a href="http://www.flickr.com/photos/bstreetboxing/4276109174/"><img src="http://farm5.staticflickr.com/4053/4276109174_65a47c24cb_s.jpg" alt="A photo on Flickr" title="Untitled-3" height="75" width="75"></a>
+				<a href="http://www.flickr.com/photos/bstreetboxing/4276109578/"><img src="http://farm3.staticflickr.com/2662/4276109578_cd4b2ca5f0_s.jpg" alt="A photo on Flickr" title="Untitled-10" height="75" width="75"></a>
+				<a href="http://www.flickr.com/photos/bstreetboxing/4275363315/"><img src="http://farm5.staticflickr.com/4062/4275363315_3fbba93845_s.jpg" alt="A photo on Flickr" title="Untitled-11" height="75" width="75"></a>
+			</div>			
+			<p>
+				<a class="btn pull-right btn-warning" href="#" role="button">View more images</a>
 			</p>
 		</div>
-	</footer>
-</div>     
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-<script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+		<div class="col-md-6">
+			<h2>YouTube</h2>
+			<div class="bstreet-show">
+				<object width="525px" height="500px" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0">
+					<param name="allowFullScreen" value="true">
+					<param name="allowscriptaccess" value="always">
+					<param name="src" value="http://www.youtube.com/v/c9wArmLDdT0&amp;hl=en_US&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999">
+					<param name="allowfullscreen" value="true">
+					<embed class="youtube_dimensions" type="application/x-shockwave-flash" src="http://www.youtube.com/v/c9wArmLDdT0&amp;hl=en_US&amp;fs=1&amp;color1=0x3a3a3a&amp;color2=0x999999" allowscriptaccess="always" allowfullscreen="true"> 
+				</object>
+			</div>
+			<p>
+				<a class="btn btn-warning pull-right" href="#" role="button">View more videos</a>
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<footer class="footer text-center">
+			<strong>B Street Boxing</strong><br>
+			223 South B Street<br>
+			San Mateo, CA 94001<br>
+			<strong>(650) 342-7408</strong>
+		</footer>
+	</div>
+	<script src="js/vendor/jquery-1.11.0.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
